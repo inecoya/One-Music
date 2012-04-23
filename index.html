@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>One Music App</title>
+<link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="http://code.google.com/apis/gears/gears_init.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="scroller" style="text-align:center;">
+		<div id="pause" style="height:100px;">
+			<h1><a onclick="javascript:play();">play</a></h1>
+		</div>
+		<div id="play" style="display:none; height:100px;">
+			<h1><a onclick="javascript:pause();">pause</a></h1><br />
+			<br />
+			<audio id="player" src="" controls loop>
+				<p>your brouwser is not supported</p>
+			</audio><br />
+			<p id="title"></p>
+			<br />
+		</div>
+	</div>
+</div>
+<div id="footer" style="text-align:center;">
+   <p><small><a onclick="location.href='http://yourdomain.com'">(C)yourdomain.com</a></small></p>
+</div>
+<script type="text/javascript">
+	<!-- google analytics -->
+</script>
+</body>
+</html>
